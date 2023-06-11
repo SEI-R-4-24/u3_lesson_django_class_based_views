@@ -33,6 +33,22 @@ This lesson continues to build-out Cat Collector right where the _Intro to Djang
 * Be sure that no other Django server is running, then start the server: python3 manage.py runserver
 
 
+
+<details>
+<summary>
+If for some reason your Cat Collector is <b>NOT</b> up and running after the last lesson
+</summary>
+<hr>
+<ul>
+<li>Fork and clone this repository.</li>
+<li>Open in VSCode.</li>
+<li>Run python3 manage.py migrate to be sure migrations are applied to the database.</li>
+<li>Start the server with python3 manage.py runserver.</li>
+</ul>
+<hr>
+</details>
+<br/>
+
 ## 2. 👉 You Do - Update Links to Use the `url` Template Tag (3 minutes)
 
 There are three `<a>` tags within the nav in **base.html** that have their `href`'s hardcoded:
