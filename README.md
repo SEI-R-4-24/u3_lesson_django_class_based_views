@@ -28,18 +28,10 @@
 
 This lesson continues to build-out Cat Collector right where the _Intro to Django Models_ lesson left off.
 
-If your Cat Collector is up and running from the last lesson, there's no reason to sync, otherwise...
+* Open the catcollector project in VS Code.
 
-<details>
-<summary>
-👀 Do you need to sync your code?
-</summary>
-<hr>
+* Be sure that no other Django server is running, then start the server: python3 manage.py runserver
 
-**`git reset --hard origin/sync-10-class-views-starter`**
-
-<hr>
-</details>
 
 ## 2. 👉 You Do - Update Links to Use the `url` Template Tag (3 minutes)
 
@@ -359,16 +351,7 @@ from django.urls import reverse
 
 Before moving on to Update & Delete operations, a few review questions...
 
-<details>
-<summary>
-👀 Do you need to sync your code?
-</summary>
-<hr>
 
-**`git reset --hard origin/sync-11-class-views-create`**
-
-<hr>
-</details>
 
 ### ❓ Review Questions - Creating Data with a CBV (1 min)
 
@@ -559,16 +542,6 @@ In the next lesson we'll see how to work with One-Many data relationships.
 
 As usual, your lab is to implement the same class-based views in your Finch Collector project.
 
-<details>
-<summary>
-👀 Do you need to sync your code?
-</summary>
-<hr>
-
-**`git reset --hard origin/sync-12-class-views-finish`**
-
-<hr>
-</details>
 
 ## 7. ❓ Essential Questions (1 min)
 
